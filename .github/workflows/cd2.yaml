@@ -1,0 +1,39 @@
+name: CI/CD - Test HTML + Deploy VM
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test-html:
+    name: Vérification HTML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validation HTML5
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+        with:
+          root: .
+
+  deploy-vm:
+    name: Déploiement sur VM (self-hosted)
+    needs: test-html
+    if: github.event_name == 'push'
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Copier le site dans Nginx
+        run: |
+          mkdir -p /var/www/tp-site
+          cp -f index.html /var/www/tp-site/index.html
+
+      - name: Tester et recharger Nginx
+        run: |
+          sudo nginx -t
+          sudo systemctl reload nginx
