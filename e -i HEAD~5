@@ -1,0 +1,49 @@
+[33mcommit fed0ff8e4090f8a4c536d72bf4ec80193cd353a6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: gusly007 <jngusly@gmail.com>
+Date:   Thu Feb 12 15:58:06 2026 +0100
+
+    Ignore self-hosted runner files
+
+[33mcommit 916308b3273f9ca12961fdaae549f8e87f70849e[m
+Author: gusly007 <jngusly@gmail.com>
+Date:   Thu Feb 12 15:52:32 2026 +0100
+
+    cd2
+
+[33mcommit 5eb67bb01c25977d475f49b8b4e975d42e62bca7[m
+Author: gusly007 <jngusly@gmail.com>
+Date:   Thu Feb 12 15:34:39 2026 +0100
+
+    config du runner
+
+[33mcommit 184a9db60a3eb283d8fcc528822c145b46bb479d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: gusly007 <jngusly@gmail.com>
+Date:   Thu Feb 12 15:11:42 2026 +0100
+
+    cd1
+
+[33mcommit 8bcf5e876696303be19b504b64f37936c84c985d[m
+Author: Gusly007 <96340642+Gusly007@users.noreply.github.com>
+Date:   Thu Feb 12 15:03:39 2026 +0100
+
+    Update CI workflow to remove GitHub Pages deployment
+    
+    Removed deployment steps for GitHub Pages from CI workflow.
+
+[33mcommit ea270aa21f8ea6264f37093eb648444da15cbedf[m
+Author: gusly007 <jngusly@gmail.com>
+Date:   Thu Feb 12 14:50:42 2026 +0100
+
+    correction html <p>
+
+[33mcommit d9322f9b019be177d3a9b1a1b4aaa6bbbe5172a9[m
+Author: gusly007 <jngusly@gmail.com>
+Date:   Thu Feb 12 14:49:19 2026 +0100
+
+    correction html <p>
+
+[33mcommit 2de5a882d7aae24bd7b0a09283cf6c3060e7307f[m
+Author: gusly007 <jngusly@gmail.com>
+Date:   Thu Feb 12 14:37:44 2026 +0100
+
+    first commit
